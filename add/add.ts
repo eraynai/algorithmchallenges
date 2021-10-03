@@ -3,11 +3,11 @@ export function add(param1: number, param2: number): number {
 }
 
 export function add2(...param1: number[]): number {
-  let first = 0
+  let total = 0
   for (let num of param1) {
-    first += num
+    total += num
   }
-  return first
+  return total
 }
 
 console.log(add(1, 2))
